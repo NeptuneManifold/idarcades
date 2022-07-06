@@ -1,0 +1,15 @@
+name: ImagicArcades
+version: '${project.version}'
+main: net.neptunemanifold.imagicarcades.Main
+api-version: 1.17
+authors: [ NeptuneManifold ]
+description: Plugin des arcades d'Imagic Disney
+commands:
+  gamemenu:
+    description: Permet de voir tout les jeux disponibles
+    permission: imagic.staff
+    usage: gamemenu
+  givecoin:
+    description: permet d'obtenir des pièces
+    permission: imagic.give
+    usage: givecoin <nombre>
